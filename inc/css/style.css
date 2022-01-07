@@ -1,0 +1,50 @@
+/**********************
+Tekijä: Patrik Laamanen
+**********************/
+
+/* Yleiset */
+
+body {
+    min-height: 100vh;
+}
+
+
+
+#footer {
+    color: #fff;
+    padding: 7px;
+    width: 100vw;
+}
+
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#reg-form {
+    padding: 25px;
+    background-color: white;
+}
+
+#login-form {
+    padding: 25px;
+    background-color: white;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+#user-body {
+    background-image: url("../img/user_bg.jpg");
+    background-size: cover;
+}
+
+.error-input {
+    border: 1px solid red;
+}
+
+.input-error-msg {
+    color: red;
+}

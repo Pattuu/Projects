@@ -1,0 +1,725 @@
+
+
+html {
+    font-family: "helvetica";
+    font-size: 16px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    height: auto;
+}
+
+main {
+    min-height: 90vh;
+}
+
+#sitehead {
+    display: flex;
+    width: 100%;
+    background-image: url("headerimg.jpg");
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+
+#sitehead h1 {
+    color: whitesmoke;
+    font-size: 3.5rem;
+    margin-left: 2rem;
+}
+
+#sitehead h2 {
+    color: whitesmoke;
+    font-size: 2rem;
+    margin-top: auto;
+    margin-right: 2rem;
+    margin-left: 7rem;
+}
+
+.user-btns {
+    padding-right: 2rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: DarkSlateGrey;
+}
+
+.greet {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+}
+
+.user-btn {
+    margin: 0.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.user-btn:hover {
+    color: blue;
+}
+
+#navbar {
+    background-color: DarkSlateGrey;
+}
+
+.navbtn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-weight: 900;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.navbtn:hover {
+    color: blue;
+}
+
+/*
+footer {
+    background-color: grey;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.5rem;
+    cursor: default;
+
+}
+*/
+
+
+.main {
+    display: flex;
+}
+
+.main img {
+    height: 13rem;
+    max-width: 100%;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+#phpimg {
+    height: 9.5rem;
+    width: auto;
+}
+
+#jsimg {
+    height: 11rem;
+    width: auto;
+}
+
+.sectiontext p {
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.sources {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 10%;
+    padding-bottom: 3rem;
+}
+
+.pageheader {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: grey;
+}
+
+.section1 {
+    background-color: orange;
+    color: black;
+}
+
+.section2 {
+    background-color: lightblue;
+    color: black;
+}
+
+.section3 {
+    background-color: yellow;
+    color: black;
+    flex-grow: 1;
+}
+
+.section4 {
+    background-color: slategray;
+    color: black;
+}
+
+.contact-section {
+    background-color: darkolivegreen;
+    height: 100%;
+    padding-bottom: 5rem;
+}
+
+.contact-expp {
+    padding-bottom: 2rem;
+}
+
+.form-div {
+    height: 50%;
+}
+
+.contact-form {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: skyblue;
+}
+
+.alert-danger {
+    border: 2px solid red;
+}
+
+.alert-success {
+    border: 2px solid green;
+}
+
+.alert {
+    font-size: 1rem;
+    width: 50%;
+    margin: auto;
+}
+
+.guestbookheader {
+    background-color: grey;
+}
+
+.guestbooktitle {
+    font-size: 3rem;
+}
+
+.guestbooksubheader {
+    font-size: 1.5rem;
+}
+
+
+.error-guest {
+    padding: 2rem;
+}
+
+.guestbooksection1 {
+    width: 30%;
+}
+
+#guestbookmessage {
+    width: 100%;
+}
+
+.guestbook {
+    background-color: lightgreen;
+}
+
+.guestbookMsg {
+    color: red;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.messageDiv {
+    width: 30%;
+    height: 20%;
+    border: 2px solid black;
+    background-color: rgb(25, 43, 25);
+    margin: 1rem 0 1rem 0;
+}
+
+.nameP {
+    float: left;
+}
+
+.timeP {
+    float: right;
+}
+
+.messageP {
+    overflow-wrap: break-word;
+    padding: 0 0.7rem 1rem 0.7rem;
+}
+
+.messageHeader {
+    padding: 0.7rem 0.7rem 1rem 0.7rem;
+}
+
+.webgamesmain {
+    background-color: lightcoral;
+    color: rgb(31, 16, 29);
+}
+
+.webgamesheader {
+    background-color: grey;
+    color: rgb(151, 0, 0);
+}
+
+.slotmachinemain {
+    text-align: left;
+}
+
+.slotmachead {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    background-color:black;
+}
+
+.slotmacheader {
+    font-size: 5rem;
+    color: gold;
+    margin: auto 1rem 0.5rem 30%;
+    cursor: default;
+}
+
+.goback {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.goback:hover {
+    color: blue;
+}
+
+.slotmachinebody {
+    background-color: red;
+}
+
+.square {
+    border: 2px solid black;
+    width: 9rem;
+    height: 9rem;
+    text-align: center;
+    background-color: darkred;
+}
+
+.rolls {
+    margin: 1rem 1rem 0 4rem;
+    border: 2px solid black;
+    display: inline-flex;
+    text-align: left;
+}
+
+.coins {
+    height: 8rem;
+    width: auto;
+    border: 2px solid black;
+    background-color: grey;
+    display: inline-flex;
+    float: left;
+    border-left: 4px solid black;
+    cursor: default;
+}
+
+#numCoins {
+    font-size: 6rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 1rem;
+}
+
+.bet-btn {
+    height: 8.39rem;
+    width: 8.39rem;
+    background-color: blue;
+    border: 2px solid black;
+    font-size: 3rem;
+    word-spacing: 8rem;
+    cursor: pointer;
+}
+
+.bet-btn:hover {
+    background-color: lightblue;
+}
+
+.selected-bet {
+    background-color: goldenrod;
+}
+
+.selected-bet:hover {
+    background-color: gold;
+}
+
+.bets {
+    display: flex;
+}
+
+.play {
+    text-align: left;
+    margin-left: 4rem;
+}
+
+#roll-btn {
+    width: 28rem;
+    height: 10rem;
+    background-color: green;
+    font-size: 4rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#roll-btn:hover {
+    background-color: lightgreen;
+}
+
+.square img {
+    display: block;
+    margin: auto;
+    margin-top: 0.7rem;
+}
+
+#bet10 {
+    border-right: 4px solid black;
+}
+
+#bet1, #bet2, #bet3, #bet5, #bet10, .coins {
+    border-bottom: 4px solid black;
+}
+
+.instructions {
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+}
+
+.info {
+    cursor: pointer;
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    top: 2;
+    z-index: 9999;
+}
+
+.instru {
+    z-index: 10;
+}
+
+.locks {
+    margin-left: 4.1rem;
+    margin-right: auto;
+    display: flex;
+}
+
+.lock {
+    width: 9.25rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+.lock:hover {
+    background-color: blue;
+}
+
+.locked {
+    width: 9.25rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    background-color: rgb(1, 1, 116);
+    color: yellow;
+}
+
+.locked:hover {
+    background-color: rgb(0, 0, 255);
+}
+
+.slotMsg {
+    float: right;
+    height: 30rem;
+    width: 40rem;
+    border: 4px solid yellow;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    background-color: black;
+    text-align: center;
+}
+
+.slotMs {
+    margin: 2.5rem;
+}
+
+#errorMs {
+    color: red;
+}
+
+#slotM {
+    color: yellow;
+}
+
+#slotT {
+    font-size: 2rem;
+    color: rgb(4, 103, 250);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#lockSta {
+    color: red;
+}
+
+#betSta {
+    color: blue;
+}
+
+#slotmachineImg {
+    height: 20rem;
+}
+
+#pigdiceImg {
+    height: 20.3rem;
+}
+
+.gameTitle {
+    font-size: 2.5rem;
+}
+
+.gamePara {
+    font-size: 1.3rem;
+}
+
+.pigBody {
+    background-color: rgb(76, 149, 151);
+}
+
+.pigHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(100, 117, 122);
+    border-bottom: 2px solid black;
+}
+
+.pigMain {
+    background-color: rgb(76, 149, 151);
+    display: flex;
+}
+
+.pigTitle {
+    margin: 1.75rem 1.75rem 1.75rem 40%;
+    font-size: 3rem;
+}
+
+.pigGame {
+    display: flex;
+    border: 3px solid black;
+    height: 34rem;
+    margin-top: 10rem;
+}
+
+.pigPlayer {
+    height: 30rem;
+}
+
+.pigP1 {
+    background-color: red;
+    padding: 2rem;
+    width: 10rem;
+}
+
+.pigP2 {
+    background-color: green;
+    padding: 2rem;
+    width: 10rem;
+}
+
+.pigRules {
+    margin-right: 15rem;
+    margin-left: 7.5rem;
+}
+
+.pigDisplay {
+    margin: 1rem 5rem;
+    display: table;
+}
+
+.pigButton {
+    height: 4rem;
+    width: 6rem;
+    background-color: gold;
+    font-size: 2rem;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.pigDices {
+    height: 7rem;
+}
+
+#pigDice {
+    height: 7rem;
+    width: auto;
+}
+
+#pigDice2 {
+    height: 7rem;
+    width: auto;
+    margin-left: 0.3rem;
+}
+
+.active-player {
+    font-size: 2rem;
+    color: yellow;
+}
+
+.rulesDiv {
+    text-align: left;
+    padding-top: 4rem;
+}
+
+.pigRules {
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top: 1px solid black;
+    border-left: 3px solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.rule-btn {
+    width: 4rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    background-color: black;
+    color: white;
+    border: 3px solid blue;
+}
+
+.active-btn {
+    background-color: gold;
+    border: 3px solid red;
+    color: red;
+}
+
+.rulesTitle {
+    font-size: 3rem;
+}
+
+.resetDiv {
+    margin-top: 3rem;
+}
+
+.pigReset {
+    margin-top: 0.5rem;
+    width: 7rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+    background-color: blue;
+    border: 2px dashed red;
+}
+
+.gameSection {
+    border: 2px solid black;
+}
+
+.projects {
+    background-color: rgb(35, 172, 226);
+}
+
+.project {
+    width: 80%;
+    background-color: white;
+    color: rgb(28, 35, 37);
+    margin: 3rem auto 0 auto;
+}
+
+.loginbody {
+    color: rgb(14, 5, 5);
+    background-color: rgb(255, 255, 255)
+}
+
+.loginheader {
+    background-color: rgb(0, 210, 238);
+}
+
+.loginmain {
+    background-color: rgb(255, 255, 255);
+    min-height: 91.2vh;
+}
+
+.login-form {
+    background-color: rgb(0, 210, 238);
+    width: 40%;
+    margin: 10rem auto auto auto;
+    padding: 5rem 5rem 1rem 5rem;
+}
+
+.login-form-title {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.logindiv {
+    background-color: rgb(0, 210, 238);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.adminbody {
+    background-color: white;
+    color: black;
+}
+
+.projectfield {
+    height: 2rem;
+    margin: 1rem;
+    width: 75%;
+}
+
+.projectform {
+    margin-top: 5rem;
+    background-color: white;
+    color: black;
+}

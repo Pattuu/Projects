@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+  <project status="Keskeneräinen" visibility="Näkyvillä">
+    <name>Vanhan sivuston päivitys</name>
+    <startdate>01/01/2022</startdate>
+    <enddate>Pian</enddate>
+    <requirements>Vanhan sivuston päivitys responsiivisemmäksi ja siistimmäksi.&#13;
+Myös toimivuuden parantelua.</requirements>
+    <description>Päivitän vanhan sivuston responsiivisemmäksi ja siistimmäksi. Toimivuuden parannus siinä sivussa. Vanha sivusto vaati päivittämistä, koska sitä olen kehittänyt pitkään ja tämän takia, se oli aika sotkuinen ja epäselkeä. Lisäksi jotkin sivut eivät olleet responsiivisiä.</description>
+    <image>imgproject/</image>
+    <link>Tämä</link>
+    <author>Patrik Laamanen</author>
+  </project>
+</projects>

@@ -78,10 +78,12 @@ require_once "inc/incfiles/startFile.php";
     <div class="container col-8 col-lg-5 bg-dark bg-gradient p-5 mt-5 text-light">
         <h3 class="mb-3">Mitä projekteja sivustolta löytyy tällä hetkellä?</h3>
         <h6>Klikkaamalla otsikoita pääset projektin sivulle. Lisäksi linkit projekteihin löytyy myös navigaatiopalkista ylhäällä.</h6>
+        <br>
+        <h6>Klikkaamalla Github-linkistä projektejen otsikon vieressä, pääset katsomaan Githubista löytyvää repoa, jossa on lähdekoodit.</h6>
 
         <ul>
             <li>
-                <p class="fw-bold mb-0 mt-3"><a class="text-light" href="#">Sivusto itsessään</a></p>
+                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="#">Sivusto itsessään</a><a class="ms-5 text-light" href="https://github.com/Pattuu/Projects">Github<i class="bi bi-github"></i></a></p>
                 <p class="mb-0">Sivusto itsessään on projekti, joka pitää sisällään toisia projekteja. Esimerkiksi kirjautumis/rekisteröitymis toiminto on osa sivustoa ja se vaikuttaa useampaan alempana
                     olevaan projektiin.
                 </p>
@@ -93,7 +95,7 @@ require_once "inc/incfiles/startFile.php";
                 </ul>
             </li>
             <li>
-                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/pelikone/slotmachine.php">Pelikone</a></p>
+                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/pelikone/slotmachine.php">Pelikone</a><a class="ms-5 text-light" href="https://github.com/Pattuu/Projects/tree/master/projektit/pelikone">Github<i class="bi bi-github"></i></a></p>
                 <p class="mb-0">Tämä oli yksi ensimmäisitä projekteistani, missä hyödynsin jQueryä. Tämä on oiva esimerkki siitä, miten aluksi en käyttänyt tarpeeksi aikaa bootstrapin harjoitteluun 
                     ja jälkikäteen en ole jaksanut sivun ulkoasua päivittää, koska jollain kierolla tavalla tykkään siitä miltä se näyttää tällä hetkellä.
                     Kuvat olen itse piirtänyt paint:issä, joten toivon että ette siitä anna miinusta ulkoasulle :)
@@ -109,7 +111,7 @@ require_once "inc/incfiles/startFile.php";
                 </ul>
             </li>
             <li>
-                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/sikanoppa/pigdice.php">Sikanoppa</a></p>
+                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/sikanoppa/pigdice.php">Sikanoppa</a><a class="ms-5 text-light" href="https://github.com/Pattuu/Projects/tree/master/projektit/sikanoppa">Github<i class="bi bi-github"></i></a></p>
                 <p class="mb-0">Sikanoppa peli kahdelle pelaajalle. Toinen projektini, minkä toteutin alunperin pelkällä javascriptillä, mutta myöhemmin päivitin sen toimimaan jQueryllä.</p>
                 <ul>
                     <li>Pelaajat voivat vaihtaa sääntöjä</li>
@@ -119,7 +121,7 @@ require_once "inc/incfiles/startFile.php";
                 </ul>
             </li>
             <li>
-                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/projects/projects.php">Projektien tallennus</a></p>
+                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/projects/projects.php">Projektien tallennus</a><a class="ms-5 text-light" href="https://github.com/Pattuu/Projects/tree/master/projektit/projects">Github<i class="bi bi-github"></i></a></p>
                 <p class="mb-0">Tämän projektin tarkoituksena oli tutustua XML-tiedostojen kanssa toimimiseen.</p>
                 <ul>
                     <li>Sivu, jolle haetaan XML-tiedostosta tallennetut projektit ja esitetään ne käyttäjälle</li>
@@ -130,7 +132,7 @@ require_once "inc/incfiles/startFile.php";
                 </ul>
             </li>
             <li>
-                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/vieraskirja/guestbook.php">Vieraskirja</a></p>
+                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/vieraskirja/guestbook.php">Vieraskirja</a><a class="ms-5 text-light" href="">Github<i class="bi bi-github"></i></a></p>
                 <p class="mb-0">Tämän projektin tein, kun harjoittelin tietokantaan tallentamista, sieltä tiedon hakemista sekä sen esittämistä käyttäjän käyttöliittymässä ja tietokannasta poistamista käyttöliittymän kautta</p>
                 <ul>
                     <li>Käyttäjä voi lähettää vieraskirjaan viestin, joka tallennetaan tietokantaan</li>
@@ -140,7 +142,7 @@ require_once "inc/incfiles/startFile.php";
                 </ul>
             </li>
             <li>
-                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/chatti/livechat.php">Chatti</a></p>
+                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="projektit/chatti/livechat.php">Chatti</a><a class="ms-5 text-light" href="https://github.com/Pattuu/Projects/tree/master/projektit/vieraskirja">Github<i class="bi bi-github"></i></a></p>
                 <p class="mb-0">Tämän projektin päätarkoitus oli harjoitella sivun vain yhden osan automaattista päivittämistä. 
                     En tehnyt tätä alunperin osaksi tätä sivustoa, jonka takia aulassa valitaa ensin ollaanko vieraita vai mennäänkö chattiin salasanan kanssa adminina.
                 </p>
@@ -154,7 +156,8 @@ require_once "inc/incfiles/startFile.php";
                 </ul>
             </li>
             <li>
-                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="#">CodeIgniter-sivusto</a></p><span>Tämä projekti ei valitettavasti ole missään pystyssä, joten sitä ei pääse kuin minun koneeltani käyttämään.</span>
+                <p class="fw-bold mb-0 mt-5"><a class="text-light" href="#">CodeIgniter-sivusto</a><a class="ms-5 text-light" href="https://github.com/Pattuu/CodeIgniter">Github<i class="bi bi-github"></i></a></p>
+                <span>Tämä projekti ei valitettavasti ole missään pystyssä, joten sitä ei pääse kuin minun koneeltani käyttämään.</span>
                 <p class="mb-0">Tämä ei ole tämän sivuston projekti, mutta lisään tänne selityksen kuitenkin. 
                     Tämä on ensimmäinen pieni tutustumisprojektini, kun aloitin harjoittelemaan CodeIgniter:in käyttöä. Tänne on erillinen kirjautumis/rekisteröitymis-järjestelmä.</p>
                 <ul>

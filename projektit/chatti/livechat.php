@@ -84,7 +84,7 @@ function checkPswd($string, $conn){
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CV</a>
+                        <a class="nav-link" href="https://patriklaamanen.com">CV</a>
                     </li>
                 </ul>
                 <?php if(isset($_SESSION['logged']) && $_SESSION['logged'] == true): ?>
